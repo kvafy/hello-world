@@ -1,4 +1,4 @@
-package org.kvafy.helloworld;
+package org.github.kvafy.helloworld;
 
 /** The all-knowing Oracle. */
 public final class Oracle {

@@ -1,4 +1,4 @@
-package org.kvafy.helloworld;
+package org.github.kvafy.helloworld;
 
 import static com.google.common.truth.Truth.assertThat;
 
