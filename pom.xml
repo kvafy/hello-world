@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.github.kvafy</groupId>
+  <groupId>com.github.kvafy</groupId>
   <artifactId>hello-world</artifactId>
-  <version>0.3</version>
+  <version>0.1-SNAPSHOT</version>
 
   <profiles>
     <!-- GPG Signature on release -->
@@ -44,7 +44,7 @@
     </snapshotRepository>
     <repository>
       <id>ossrh</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
     </repository>
   </distributionManagement>
   <scm>
@@ -92,7 +92,6 @@
           <localCheckout>true</localCheckout>
           <pushChanges>false</pushChanges>
           <mavenExecutorId>forked-path</mavenExecutorId>
-<!--          <arguments>-Dgpg.passphrase=${gpg.passphrase}</arguments>-->
         </configuration>
         <dependencies>
           <dependency>
