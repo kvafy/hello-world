@@ -4,7 +4,7 @@
 
   <groupId>org.github.kvafy</groupId>
   <artifactId>hello-world</artifactId>
-  <version>0.2-SNAPSHOT</version>
+  <version>0.1-SNAPSHOT</version>
 
   <profiles>
     <!-- GPG Signature on release -->
@@ -51,7 +51,7 @@
     <connection>scm:git:git://github.com/kvafy/hello-world.git</connection>
     <developerConnection>scm:git:git@github.com:kvafy/kvafy.git</developerConnection>
     <url>https://github.com/kvafy/hello-world</url>
-    <tag>HEAD</tag>
+    <tag>hello-world-0.1</tag>
   </scm>
 
   <dependencies>
