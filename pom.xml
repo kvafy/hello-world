@@ -6,6 +6,22 @@
   <artifactId>hello-world</artifactId>
   <version>0.5-SNAPSHOT</version>
 
+  <name>A &apos;Hello World&apos; library</name>
+  <description>A library for testing publication to Maven Central</description>
+  <url>https://github.com/kvafy/hello-world</url>
+  <licenses>
+    <license>
+      <name>WTFPL</name>
+      <url>http://www.wtfpl.net</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Anonymous</name>
+      <email>anonymous@no-spam.com</email>
+    </developer>
+  </developers>
+
   <profiles>
     <!-- GPG Signature on release -->
     <profile>
